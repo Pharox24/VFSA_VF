@@ -83,3 +83,16 @@ animation: wiggle 0.5s infinite;
     cursor: pointer;
   }
   
+
+
+h1, h2, h3, h4, h5 {
+    font-family: "American Typewriter";
+}
+
+
+p, li {
+    font-family: "Times New Roman";
+}
+
+
+
