@@ -51,7 +51,7 @@
       <!-- Navbar Links (Hidden on Mobile by Default) -->
       <div id="menu" class="hidden sm:flex space-x-4 text-[clamp(1rem, 2.5vw, 2rem)]">
         <a href="https://www.shuaamisr.com" target="_blank" class="bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700">SMIFID جروب</a>
-        <a href="home_Ar.html" class="rounded px-3 py-2 font-semibold hover:bg-red-700">الصفحة الرئيسية</a>
+        <a href="" class="rounded px-3 py-2 font-semibold hover:bg-red-700">الصفحة الرئيسية</a>
         <a href="about_Ar.html" class="rounded px-3 py-2 font-semibold hover:bg-red-700">من نحن</a>
         <a href="services_Ar.html" class="rounded px-3 py-2 font-semibold hover:bg-red-700">الخدمات</a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUtLuHs7TYlP4DInpZSXgM03FB9VluhB4VXWKo6Mi4sw1UMg/viewform?usp=sf_link" target="_blank" class="rounded px-3 py-2 font-semibold hover:bg-red-700">قدم الآن</a>
@@ -189,57 +189,113 @@
       </div>
 
 
+  <!-- Footer -->
+  <footer class="bg-black text-white text-right">
+    <div class="flex flex-wrap h-full">
+        <!-- Map Section -->
+        <div class="w-full md:w-1/3 p-5 aspect-video md:aspect-auto md:h-[500px]">
+            <iframe 
+                class="w-full h-full rounded-xl"
+                src="https://www.google.com/maps/embed?..."
+                title="موقع VFSA على الخريطة"
+                loading="lazy"
+                aria-label="خريطة الموقع"
+                allowfullscreen>
+            </iframe>
+        </div>
 
-    <!-- Footer -->
-    <footer class="bg-black p-0">
-        <div class="flex flex-wrap items-stretch h-auto">
+        <!-- Content Section -->
+        <div class="w-full md:w-2/3 p-5 flex flex-col justify-between text-right">
+            <div class="space-y-8" dir="rtl">
+                <!-- Header Section -->
+                <div class="flex flex-col md:flex-row justify-between items-start gap-6">
+                    <div class="md:text-right space-y-4 flex-1">
+                        <h1 class="font-bold text-3xl md:text-4xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+                            تواصل معنا
+                        </h1>
+                        <p class="text-xl max-w-[500px] ml-auto">
+                            احصل على آخر التحديثات من خلال متابعتنا في منصات التواصل الاجتماعي.
+                        </p>
+                    </div>
+                </div>
 
-            <div class="w-full md:w-1/3 p-5">
-                <iframe class="h-full w-full rounded-xl" src="https://www.google.com/maps/embed?..."></iframe>
-            </div>
-
-            <div class="w-full md:w-2/3 p-5 flex flex-col justify-center">
-                <div class="grid grid-rows-3 gap-6 text-white">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        
-                        <div class="text-left">
-                            <!--
-                            <h1 class="font-bold text-3xl md:text-4xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">Contact Us</h1>
-                            <p class="text-lg">Get the latest updates by following us on social media. if you have any questions feel free to call us or emails us at the following: </p>
-                            -->
+                <!-- Contact Information -->
+                <div class="grid gap-8 text-right">
+                    <address class="space-y-4 not-italic">
+                        <div class="flex flex-col items-end">
+                            <a href="mailto:info@vfsa.site" class="hover:text-indigo-500 transition-colors">
+                                info@vfsa.site
+                            </a>
+                            <a href="https://www.vfsa.site" target="_blank" rel="noopener noreferrer" 
+                            class="hover:text-indigo-500 transition-colors">
+                                www.vfsa.site
+                            </a>
                         </div>
                         
-                        <div class="text-right">
-                            <h1 class="font-bold text-3xl md:text-4xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">تواصل معنا</h1>
-                            <p class="text-xl">احصل على آخر التحديثات من خلال متابعتنا في منصات التواصل الاجتماعي.</p>
+                        <div class="flex flex-col items-end">
+                            <div class="ltr-direction">
+                                <span role="img" aria-label="علم مصر">🇪🇬</span>
+                                <a href="tel:+20554911365" class="hover:text-indigo-500 transition-colors">
+                                    (+20) 554911365
+                                </a>
+                            </div>
+                            <div class="ltr-direction">
+                                <span role="img" aria-label="علم اليونان">🇬🇷</span>
+                                <a href="tel:+306955967553" class="hover:text-indigo-500 transition-colors">
+                                    (+30) 6955967553
+                                </a>
+                            </div>
+
+                                                    <!-- Download Section -->
+                    <div class="flex flex-col items-end justify-between">
+                        <a href="Statics/Assets/Files/VFSA brochure.pdf" 
+                        class="hover:text-indigo-500 transition-colors group"
+                        download="منشور-VFSA.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            <div class="flex items-center gap-2">
+                                <span class="group-hover:underline">تحميل المنشور</span>
+                                <img src="Statics/Assets/SVGs/download.svg" 
+                                    alt="رمز التحميل"
+                                    class="h-6 w-6"
+                                    aria-hidden="true">
+                            </div>
+                        </a>
+                    </div>
                         </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 text-right">
-                        <h3>info@vfsa.site</h3>
-                        <h3>www.vfsa.site</h3>
-                        <h3>🇪🇬(+20) 554911365</h3>
-                        <h3>🇬🇷(+30) 6955967553</h3>
-                        <a href="Statics/Assets/Files/VFSA brochure.pdf" target="_blank" class="flex gap-x-2  content-center items-center mt-4 hover:text-indigo-500 hover:underline">
-                          <img  class="h-6 w-auto" src="Statics/Assets/SVGs/download.svg">
-                          <h1>تحميل المنشور</h1>
-                      </a>
-                    </div>
-
-                    <div class="flex justify-center items-center flex-wrap">
-                        <h3 class="px-4 text-lg">©حقوق النشر  ٢٠٢٤</h3>
-                        <h2>|</h2>
-                        <a class="px-4 text-lg hover:text-indigo-500" href="TOS_Ar.html" target="_blank">شروط الخدمة</a>
-                        <h2>|</h2>
-                        <a class="px-4 text-lg hover:text-indigo-500" href="PrivacyPolicy_Ar.html" target="_blank">سياسة الخصوصية</a>
-                        
-                    </div>
+                    </address>
                 </div>
             </div>
 
-
+            <!-- Copyright Section -->
+            <div class="border-t border-gray-800 mt-8 pt-6">
+                <div class="flex flex-wrap justify-center items-center gap-4" dir="rtl">
+                    <span class="text-gray-400">© ٢٠٢٤ جميع الحقوق محفوظة</span>
+                    <span aria-hidden="true" class="text-gray-600">|</span>
+                    <a href="TOS_Ar.html" 
+                    class="hover:text-indigo-500 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        شروط الخدمة
+                    </a>
+                    <span aria-hidden="true" class="text-gray-600">|</span>
+                    <a href="PrivacyPolicy_Ar.html"
+                    class="hover:text-indigo-500 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        سياسة الخصوصية
+                    </a>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
+<style>
+.ltr-direction {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+</style>
     </body>
 </html>
